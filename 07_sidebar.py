@@ -14,7 +14,7 @@ user_opt = st.sidebar.selectbox("좋아하는 작품은?", sel_opt)
 st.sidebar.write("선택한 작품은:", user_opt)
 
 #메인 화면
-st.title("스트림릿의 사이드바")
+st.title("스트림릿을 이용한 명화 감상")
 # folder = r'D:\AI_ThrusdayCLass\data\data\'
 image_files=['Vermeer.png','Gogh.png','Munch.png','ShinYoonbok.png']
 
