@@ -21,6 +21,6 @@ image_files=['Vermeer.png','Gogh.png','Munch.png','ShinYoonbok.png']
 sel_img_index = sel_opt.index(user_opt)
 #선택한 항목에 맞는 이미지파일이 무엇인지를 먼저 지정
 img_file = image_files[sel_img_index]
-img_local = Image.open(r"D:/AI_ThrusdayCLass/data/data/"+img_file) #PIL에서 이미지를 열어주는 것.
+img_local = Image.open(img_file) #PIL에서 이미지를 열어주는 것.
 st.image(img_local,caption=user_opt) # 이미지를 표시하는 것
 
